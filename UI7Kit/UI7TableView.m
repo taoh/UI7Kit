@@ -54,7 +54,7 @@ UIColor *UI7TableViewGroupedViewPatternColor = nil;
         self.backgroundView = nil;
     }
     if (self.separatorStyle == UITableViewCellSeparatorStyleSingleLineEtched) {
-        self.separatorStyle = UITableViewCellSeparatorStyleNone;
+        self.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
     }
 }
 
